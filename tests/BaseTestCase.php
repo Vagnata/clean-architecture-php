@@ -4,12 +4,13 @@
 namespace Alura\Arquitetura\Testes;
 
 use Faker\Factory;
+use Faker\Generator;
 use PHPUnit\Framework\TestCase;
 
 class BaseTestCase extends TestCase
 {
     /**
-     * @var Factory
+     * @var Generator
      */
     protected $faker;
 

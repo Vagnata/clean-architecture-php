@@ -8,9 +8,10 @@ class CpfTest extends BaseTestCase
 {
     public function testValidCpfConstruction()
     {
-        $cpf = new Cpf('000.000.000-00');
+        $number = $this->faker->numerify('###.###.###-##');
+        $cpf    = new Cpf($number);
 
-        $this->assertEquals('000.000.000-00', $cpf->__toString());
+        $this->assertEquals($number, $cpf->__toString());
     }
 
     public function testThrowInvalidArgumentExceptionOnCpfConstruction()
