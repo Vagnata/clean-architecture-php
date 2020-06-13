@@ -8,19 +8,19 @@ use http\Exception\InvalidArgumentException;
 
 class Email
 {
-    private $endereco;
+    private $address;
 
-    public function __construct(string $endereco)
+    public function __construct(string $address)
     {
-        if (filter_var($endereco, FILTER_VALIDATE_EMAIL) === false) {
-            throw new InvalidArgumentException('Endereço de e-mail inválido');
+        if (filter_var($address, FILTER_VALIDATE_EMAIL) === false) {
+            throw new InvalidArgumentException('Invalid email address');
         }
 
-        $this->endereco = $endereco;
+        $this->address = $address;
     }
 
     public function __toString()
     {
-        return $this->endereco;
+        return $this->address;
     }
 }
