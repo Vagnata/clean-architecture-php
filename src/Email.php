@@ -1,10 +1,6 @@
 <?php
 
-
 namespace Alura\Arquitetura;
-
-
-use http\Exception\InvalidArgumentException;
 
 class Email
 {
@@ -13,7 +9,7 @@ class Email
     public function __construct(string $address)
     {
         if (filter_var($address, FILTER_VALIDATE_EMAIL) === false) {
-            throw new InvalidArgumentException('Invalid email address');
+            throw new \InvalidArgumentException('Invalid email address');
         }
 
         $this->address = $address;
