@@ -28,6 +28,10 @@ class ComposerStaticInit0bca7d713b1cd3db411e0846a727deda
         array (
             'Prophecy\\' => 9,
         ),
+        'F' => 
+        array (
+            'Faker\\' => 6,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -58,6 +62,10 @@ class ComposerStaticInit0bca7d713b1cd3db411e0846a727deda
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
