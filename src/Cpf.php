@@ -4,8 +4,6 @@
 namespace Alura\Arquitetura;
 
 
-use http\Exception\InvalidArgumentException;
-
 class Cpf
 {
     private $number;
@@ -29,7 +27,7 @@ class Cpf
         ];
 
         if (filter_var($numero, FILTER_VALIDATE_REGEXP, $options) === false) {
-            throw new InvalidArgumentException('Invalid CPF Number');
+            throw new \InvalidArgumentException('Invalid CPF number');
         }
 
         $this->number = $numero;
