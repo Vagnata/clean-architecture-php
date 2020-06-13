@@ -6,6 +6,7 @@ namespace Alura\Arquitetura;
 
 class Aluno
 {
-    private $nome;
+    private $name;
     private $email;
+    private $cpf;
 }
