@@ -14,6 +14,6 @@ class StudentTest extends BaseTestCase
         $student = new Student();
         $student->addPhoneNumber($areaCode, $phoneNumber);
 
-        $this->assertEquals($areaCode . $phoneNumber, current($student->getPhones())->__toString());
+        $this->assertEquals($areaCode . $phoneNumber, current($student->getPhones()));
     }
 }
