@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cbd1b65-6bac-449b-9b96-5f03db1b570e" name="Default Changelist" comment="Implementa classe Phone">
-      <change afterPath="$PROJECT_DIR$/src/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/arquitetura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arquitetura.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="6cbd1b65-6bac-449b-9b96-5f03db1b570e" name="Default Changelist" comment="Remove chamada redundante">
+      <change afterPath="$PROJECT_DIR$/src/Domain/Student/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aluno.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cpf.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Cpf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Indication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Indication/Indication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Phone.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Student/Phone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -30,17 +32,19 @@
     <session id="-1312537284">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="json" value="2" />
           <entry key="lock" value="1" />
-          <entry key="php" value="23" />
+          <entry key="php" value="28" />
           <entry key="phpunit" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -49,31 +53,31 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="JSON" value="3" />
-          <entry key="PHP" value="23" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PHP" value="28" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="62" />
+          <entry key="gitignore" value="70" />
           <entry key="json" value="72" />
-          <entry key="php" value="2211" />
-          <entry key="txt" value="367" />
+          <entry key="php" value="2849" />
+          <entry key="txt" value="497" />
           <entry key="xml" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="72" />
-          <entry key="PHP" value="2211" />
-          <entry key="PLAIN_TEXT" value="429" />
+          <entry key="PHP" value="2849" />
+          <entry key="PLAIN_TEXT" value="567" />
           <entry key="XML" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="9" />
+          <entry key="PHP Class.type" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -90,46 +94,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Email.php">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Indication/Indication.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="70">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/StudentTest.php">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="364">
+              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Student.php">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="28">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cpf.php">
+        <entry file="file://$PROJECT_DIR$/tests/PhoneTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Phone.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="392">
+              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -144,7 +139,6 @@
       <list>
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/CpfTest.php" />
         <option value="$PROJECT_DIR$/tests/EmailTest.php" />
         <option value="$PROJECT_DIR$/src/Email.php" />
@@ -153,9 +147,20 @@
         <option value="$PROJECT_DIR$/src/Cpf.php" />
         <option value="$PROJECT_DIR$/src/Telefone.php" />
         <option value="$PROJECT_DIR$/src/Aluno.php" />
-        <option value="$PROJECT_DIR$/src/Student.php" />
         <option value="$PROJECT_DIR$/tests/BaseTestCase.php" />
         <option value="$PROJECT_DIR$/tests/StudentTest.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Indication.php" />
+        <option value="$PROJECT_DIR$/src/FactoryStudent.php" />
+        <option value="$PROJECT_DIR$/src/Student.php" />
+        <option value="$PROJECT_DIR$/src/Student/Phone.php" />
+        <option value="$PROJECT_DIR$/src/Student/Student.php" />
+        <option value="$PROJECT_DIR$/src/Indication/Indication.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Student/Phone.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Indication/Indication.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Cpf.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Email.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Student/Student.php" />
       </list>
     </option>
   </component>
@@ -226,25 +231,32 @@
             <path>
               <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
               <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Indication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
               <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="phpunit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="phpunit" type="462c0819:PsiDirectoryNode" />
-              <item name="phpunit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,9 +275,14 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\arquitetura\src\Domain" />
+      <recent name="C:\xampp\htdocs\arquitetura\src\Indication" />
+      <recent name="C:\xampp\htdocs\arquitetura\src\Student" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\arquitetura\tests" />
       <recent name="C:\xampp\htdocs\arquitetura\src" />
+      <recent name="C:\xampp\htdocs\arquitetura\tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,7 +356,8 @@
       <updated>1591983954951</updated>
       <workItem from="1591983956132" duration="85000" />
       <workItem from="1591984071049" duration="11915000" />
-      <workItem from="1593969876557" duration="1899000" />
+      <workItem from="1593969876557" duration="4593000" />
+      <workItem from="1595467502851" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="Ajusta atributos CPF">
       <created>1592058601377</created>
@@ -418,13 +436,45 @@
       <option name="project" value="LOCAL" />
       <updated>1593971736343</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Renomeia classe Aluno">
+      <created>1593971834388</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593971834388</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implementa classe de teste para Student">
+      <created>1593971854723</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593971854723</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implementa classe de teste para Student">
+      <created>1593971869210</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593971869210</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Remove chamada redundante">
+      <created>1593972144257</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593972144257</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adiciona classe de indicação de alunos">
+      <created>1593972530978</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593972530978</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CpfTest_testThrowInvalidArgumentExceptionOnCpfConstruction - 2020.07.05 at 13h 36m 14s.xml">
-      <configuration name="CpfTest.testThrowInvalidArgumentExceptionOnCpfConstruction" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="EmailTest - 2020.07.05 at 13h 36m 26s.xml">
       <configuration name="EmailTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -452,20 +502,23 @@
     <history-entry file="StudentTest_testPhoneNumberAddition - 2020.07.05 at 13h 56m 45s.xml">
       <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="StudentTest_testPhoneNumberAddition - 2020.07.05 at 14h 00m 33s.xml">
+      <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13899000" />
+    <option name="totallyTimeSpent" value="18819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3640725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3683369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25665602" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25665602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27919912" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,8 +526,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989339" weight="0.37060702" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989339" visible="true" weight="0.24494143" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.2502781" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -499,7 +553,11 @@
     <MESSAGE value="Implementa testes email" />
     <MESSAGE value="Implementa classe Phone" />
     <MESSAGE value="Adicionar providers do faker para dados pt-BR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionar providers do faker para dados pt-BR" />
+    <MESSAGE value="Renomeia classe Aluno" />
+    <MESSAGE value="Implementa classe de teste para Student" />
+    <MESSAGE value="Remove chamada redundante" />
+    <MESSAGE value="Adiciona classe de indicação de alunos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona classe de indicação de alunos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
@@ -532,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Factory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -550,13 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PhoneTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -574,45 +618,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+    <entry file="file://$PROJECT_DIR$/src/Telefone.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Generator.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rkkkkmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm+eferral.php" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="42">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Telefone.php">
+    <entry file="file://$PROJECT_DIR$/tests/PhoneTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="392">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email.php">
+    <entry file="file://$PROJECT_DIR$/src/FactoryStudent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="238">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Phone.php">
+    <entry file="file://$PROJECT_DIR$/tests/StudentTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cpf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="266">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -626,13 +661,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Generator.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/StudentTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Domain/Indication/Indication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="70">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Cpf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
