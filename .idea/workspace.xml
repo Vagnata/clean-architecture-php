@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbd1b65-6bac-449b-9b96-5f03db1b570e" name="Default Changelist" comment="Remove chamada redundante">
-      <change afterPath="$PROJECT_DIR$/src/Domain/Student/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cpf.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Cpf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Email.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Indication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Indication/Indication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Phone.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Student/Phone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CpfTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Domain/CpfTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/EmailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Domain/EmailTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PhoneTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/StudentTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +40,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="json" value="2" />
+          <entry key="json" value="3" />
           <entry key="lock" value="1" />
-          <entry key="php" value="28" />
+          <entry key="php" value="38" />
           <entry key="phpunit" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -52,8 +50,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="1" />
-          <entry key="JSON" value="3" />
-          <entry key="PHP" value="28" />
+          <entry key="JSON" value="4" />
+          <entry key="PHP" value="38" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -62,7 +60,7 @@
         <counts>
           <entry key="gitignore" value="70" />
           <entry key="json" value="72" />
-          <entry key="php" value="2849" />
+          <entry key="php" value="2894" />
           <entry key="txt" value="497" />
           <entry key="xml" value="67" />
         </counts>
@@ -70,7 +68,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="72" />
-          <entry key="PHP" value="2849" />
+          <entry key="PHP" value="2894" />
           <entry key="PLAIN_TEXT" value="567" />
           <entry key="XML" value="67" />
         </counts>
@@ -84,47 +82,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <folding>
+                <element signature="e#60#103#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Indication/Indication.php">
+        <entry file="file://$PROJECT_DIR$/tests/Domain/Student/StudentTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#60#105#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Domain/CpfTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="70">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
+        <entry file="file://$PROJECT_DIR$/tests/Domain/EmailTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/PhoneTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#53#88#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,15 +137,12 @@
       <list>
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/tests/CpfTest.php" />
-        <option value="$PROJECT_DIR$/tests/EmailTest.php" />
         <option value="$PROJECT_DIR$/src/Email.php" />
         <option value="$PROJECT_DIR$/src/Phone.php" />
         <option value="$PROJECT_DIR$/tests/PhoneTest.php" />
         <option value="$PROJECT_DIR$/src/Cpf.php" />
         <option value="$PROJECT_DIR$/src/Telefone.php" />
         <option value="$PROJECT_DIR$/src/Aluno.php" />
-        <option value="$PROJECT_DIR$/tests/BaseTestCase.php" />
         <option value="$PROJECT_DIR$/tests/StudentTest.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Indication.php" />
@@ -161,6 +156,11 @@
         <option value="$PROJECT_DIR$/src/Domain/Cpf.php" />
         <option value="$PROJECT_DIR$/src/Domain/Email.php" />
         <option value="$PROJECT_DIR$/src/Domain/Student/Student.php" />
+        <option value="$PROJECT_DIR$/tests/BaseTestCase.php" />
+        <option value="$PROJECT_DIR$/tests/CpfTest.php" />
+        <option value="$PROJECT_DIR$/tests/EmailTest.php" />
+        <option value="$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php" />
+        <option value="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" />
       </list>
     </option>
   </component>
@@ -256,6 +256,19 @@
             <path>
               <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
               <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -276,6 +289,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\arquitetura\tests\Domain" />
+      <recent name="C:\xampp\htdocs\arquitetura\tests\Domain\Student" />
       <recent name="C:\xampp\htdocs\arquitetura\src\Domain" />
       <recent name="C:\xampp\htdocs\arquitetura\src\Indication" />
       <recent name="C:\xampp\htdocs\arquitetura\src\Student" />
@@ -297,25 +312,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.StudentTest.testPhoneNumberAddition">
-    <configuration name="CpfTest.testThrowInvalidArgumentExceptionOnCpfConstruction" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\CpfTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/CpfTest.php" method="testThrowInvalidArgumentExceptionOnCpfConstruction" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.CpfTest">
+    <configuration name="CpfTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Alura\Arquitetura\Testes\Domain\CpfTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/CpfTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EmailTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Alura\Arquitetura\Testes\Domain\EmailTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/EmailTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="EmailTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\EmailTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/EmailTest.php" scope="Class" />
+      <TestRunner class="Alura\Arquitetura\Testes\EmailTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/EmailTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="PhoneTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\PhoneTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/PhoneTest.php" scope="Class" />
+      <TestRunner class="Alura\Arquitetura\Testes\Domain\Student\PhoneTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="StudentTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\StudentTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/StudentTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="StudentTest.testPhoneNumberAddition" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\StudentTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/StudentTest.php" method="testPhoneNumberAddition" scope="Method" />
+      <TestRunner class="Alura\Arquitetura\Testes\Domain\Student\StudentTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="SuiteTeste" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -328,19 +343,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.SuiteTeste" />
-      <item itemvalue="PHPUnit.CpfTest.testThrowInvalidArgumentExceptionOnCpfConstruction" />
       <item itemvalue="PHPUnit.EmailTest" />
+      <item itemvalue="PHPUnit.CpfTest" />
+      <item itemvalue="PHPUnit.EmailTest (1)" />
       <item itemvalue="PHPUnit.PhoneTest" />
-      <item itemvalue="PHPUnit.StudentTest.testPhoneNumberAddition" />
       <item itemvalue="PHPUnit.StudentTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.StudentTest.testPhoneNumberAddition" />
+        <item itemvalue="PHPUnit.CpfTest" />
+        <item itemvalue="PHPUnit.EmailTest (1)" />
         <item itemvalue="PHPUnit.StudentTest" />
         <item itemvalue="PHPUnit.PhoneTest" />
         <item itemvalue="PHPUnit.EmailTest" />
-        <item itemvalue="PHPUnit.CpfTest.testThrowInvalidArgumentExceptionOnCpfConstruction" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +372,7 @@
       <workItem from="1591983956132" duration="85000" />
       <workItem from="1591984071049" duration="11915000" />
       <workItem from="1593969876557" duration="4593000" />
-      <workItem from="1595467502851" duration="2226000" />
+      <workItem from="1595467502851" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="Ajusta atributos CPF">
       <created>1592058601377</created>
@@ -475,39 +490,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmailTest - 2020.07.05 at 13h 36m 26s.xml">
-      <configuration name="EmailTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PhoneTest - 2020.07.05 at 13h 36m 32s.xml">
-      <configuration name="PhoneTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="SuiteTeste - 2020.07.05 at 13h 39m 38s.xml">
-      <configuration name="SuiteTeste" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="StudentTest_testPhoneNumberAddition - 2020.07.05 at 13h 51m 17s.xml">
-      <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="StudentTest - 2020.07.05 at 13h 51m 26s.xml">
-      <configuration name="StudentTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="StudentTest - 2020.07.05 at 13h 54m 13s.xml">
-      <configuration name="StudentTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="StudentTest_testPhoneNumberAddition - 2020.07.05 at 13h 54m 28s.xml">
-      <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="StudentTest_testPhoneNumberAddition - 2020.07.05 at 13h 56m 26s.xml">
-      <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="StudentTest_testPhoneNumberAddition - 2020.07.05 at 13h 56m 45s.xml">
-      <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="StudentTest_testPhoneNumberAddition - 2020.07.05 at 14h 00m 33s.xml">
       <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="EmailTest - 2020.07.22 at 22h 09m 25s.xml">
+      <configuration name="EmailTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CpfTest - 2020.07.22 at 22h 10m 35s.xml">
+      <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CpfTest - 2020.07.22 at 22h 11m 19s.xml">
+      <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CpfTest - 2020.07.22 at 22h 12m 24s.xml">
+      <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="EmailTest_(1) - 2020.07.22 at 22h 12m 38s.xml">
+      <configuration name="EmailTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PhoneTest - 2020.07.22 at 22h 13m 02s.xml">
+      <configuration name="PhoneTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="StudentTest - 2020.07.22 at 22h 13m 25s.xml">
+      <configuration name="StudentTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="EmailTest_(1) - 2020.07.22 at 22h 13m 50s.xml">
+      <configuration name="EmailTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CpfTest - 2020.07.22 at 22h 13m 54s.xml">
+      <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18819000" />
+    <option name="totallyTimeSpent" value="19254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -518,7 +533,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25665602" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25665602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27919912" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,7 +541,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989339" visible="true" weight="0.24494143" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989339" weight="0.24494143" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.2502781" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -560,9 +575,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adiciona classe de indicação de alunos" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bin/phpunit">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -597,27 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CpfTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/EmailTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Telefone.php" />
     <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Generator.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -630,48 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PhoneTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryStudent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="21" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/StudentTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BaseTestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#45#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Indication/Indication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -698,8 +651,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="14">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Indication/Indication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BaseTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="e#45#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Domain/EmailTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#53#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Domain/CpfTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Domain/Student/StudentTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#60#105#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding>
+            <element signature="e#60#103#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

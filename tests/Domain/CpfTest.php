@@ -1,8 +1,9 @@
 <?php
 
-namespace Alura\Arquitetura\Testes;
+namespace Alura\Arquitetura\Testes\Domain;
 
-use Alura\Arquitetura\Cpf;
+use Alura\Arquitetura\Domain\Cpf;
+use Alura\Arquitetura\Testes\BaseTestCase;
 
 class CpfTest extends BaseTestCase
 {

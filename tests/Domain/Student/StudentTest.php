@@ -1,8 +1,10 @@
 <?php
 
-namespace Alura\Arquitetura\Testes;
+namespace Alura\Arquitetura\Testes\Domain\Student;
 
-use Alura\Arquitetura\Student;
+
+use Alura\Arquitetura\Domain\Student\Student;
+use Alura\Arquitetura\Testes\BaseTestCase;
 
 class StudentTest extends BaseTestCase
 {

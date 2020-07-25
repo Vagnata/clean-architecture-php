@@ -1,8 +1,10 @@
 <?php
 
-namespace Alura\Arquitetura\Testes;
+namespace Alura\Arquitetura\Testes\Domain\Student;
 
-use Alura\Arquitetura\Phone;
+
+use Alura\Arquitetura\Domain\Student\Phone;
+use Alura\Arquitetura\Testes\BaseTestCase;
 
 class PhoneTest extends BaseTestCase
 {

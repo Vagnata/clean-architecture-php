@@ -1,9 +1,11 @@
 <?php
 
 
-namespace Alura\Arquitetura\Testes;
+namespace Alura\Arquitetura\Testes\Domain;
 
-use Alura\Arquitetura\Email;
+
+use Alura\Arquitetura\Domain\Email;
+use Alura\Arquitetura\Testes\BaseTestCase;
 
 class EmailTest extends BaseTestCase
 {
