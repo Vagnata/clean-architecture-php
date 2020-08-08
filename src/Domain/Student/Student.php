@@ -32,8 +32,26 @@ class Student
         return $this;
     }
 
+    /**
+     * @return Phone[]
+     */
     public function getPhones(): array
     {
         return $this->phones;
+    }
+
+    public function getCpf(): string
+    {
+        return $this->cpf;
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    public function getEmail(): string
+    {
+        return $this->email;
     }
 }

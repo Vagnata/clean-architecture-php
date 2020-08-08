@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cbd1b65-6bac-449b-9b96-5f03db1b570e" name="Default Changelist" comment="Remove chamada redundante" />
+    <list default="true" id="6cbd1b65-6bac-449b-9b96-5f03db1b570e" name="Default Changelist" comment="Remove chamada redundante">
+      <change beforePath="$PROJECT_DIR$/src/Domain/Student/Phone.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Student/Phone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Student/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Student/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Student/StudentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Student/StudentRepository.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +14,67 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="clean_architecture: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="clean_architecture: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="indications: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="clean_architecture: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="phones: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="clean_architecture: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="students: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="a2b59e49-9d05-440f-a5a6-fe02a08fa9de">
+        <node key="clean_architecture" />
+      </node>
+    </checked>
+    <expanded>
+      <node key="a2b59e49-9d05-440f-a5a6-fe02a08fa9de" />
+    </expanded>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1687842407">
@@ -36,19 +101,22 @@
           <entry key="gitignore" value="2" />
           <entry key="json" value="3" />
           <entry key="lock" value="1" />
-          <entry key="php" value="40" />
+          <entry key="php" value="45" />
           <entry key="phpunit" value="1" />
-          <entry key="sql" value="1" />
+          <entry key="sql" value="2" />
+          <entry key="students" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="1" />
+          <entry key="Database Element" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="PHP" value="40" />
+          <entry key="PHP" value="45" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
+          <entry key="Scratch" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -56,8 +124,8 @@
         <counts>
           <entry key="gitignore" value="70" />
           <entry key="json" value="72" />
-          <entry key="php" value="2956" />
-          <entry key="sql" value="343" />
+          <entry key="php" value="4455" />
+          <entry key="sql" value="400" />
           <entry key="txt" value="497" />
           <entry key="xml" value="67" />
         </counts>
@@ -65,15 +133,16 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="72" />
-          <entry key="PHP" value="2956" />
+          <entry key="PHP" value="4437" />
           <entry key="PLAIN_TEXT" value="567" />
-          <entry key="SQL" value="343" />
+          <entry key="SQL" value="389" />
+          <entry key="Scratch" value="29" />
           <entry key="XML" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="10" />
+          <entry key="PHP Class.type" value="12" />
           <entry key="PHP Interface.type" value="1" />
         </counts>
       </usages-collector>
@@ -96,55 +165,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="168">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Indication/Indication.php">
+        <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Domain/Student/StudentTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="401">
+              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
               <folding>
-                <element signature="e#60#105#0#PHP" expanded="true" />
+                <element signature="e#44#77#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Domain/CpfTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Domain/EmailTest.php">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#53#88#0#PHP" expanded="true" />
-              </folding>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Cpf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -173,18 +252,21 @@
         <option value="$PROJECT_DIR$/src/Student/Phone.php" />
         <option value="$PROJECT_DIR$/src/Student/Student.php" />
         <option value="$PROJECT_DIR$/src/Indication/Indication.php" />
-        <option value="$PROJECT_DIR$/src/Domain/Student/Phone.php" />
         <option value="$PROJECT_DIR$/src/Domain/Indication/Indication.php" />
         <option value="$PROJECT_DIR$/src/Domain/Cpf.php" />
         <option value="$PROJECT_DIR$/src/Domain/Email.php" />
-        <option value="$PROJECT_DIR$/src/Domain/Student/Student.php" />
         <option value="$PROJECT_DIR$/tests/BaseTestCase.php" />
         <option value="$PROJECT_DIR$/tests/CpfTest.php" />
         <option value="$PROJECT_DIR$/tests/EmailTest.php" />
         <option value="$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php" />
         <option value="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" />
-        <option value="$PROJECT_DIR$/src/Domain/Student/StudentRepository.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a2b59e49-9d05-440f-a5a6-fe02a08fa9de/console.sql" />
         <option value="$PROJECT_DIR$/db.sql" />
+        <option value="$PROJECT_DIR$/src/Domain/Student/StudentRepository.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Student/Student.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Student/Phone.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php" />
+        <option value="$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php" />
       </list>
     </option>
   </component>
@@ -247,6 +329,31 @@
               <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
               <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Indication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Student" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -256,8 +363,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="Ind&#9;FILE&#9;file://C:/xampp/htdocs/arquitetura/src/Domain/Indication/Indication.php&#10;Emai&#9;FILE&#9;file://C:/xampp/htdocs/arquitetura/src/Email.php" />
+    <property name="SearchEverywhereHistoryKey" value="Student&#9;FILE&#9;file://C:/xampp/htdocs/arquitetura/src/Domain/Student/Student.php&#10;Ind&#9;FILE&#9;file://C:/xampp/htdocs/arquitetura/src/Domain/Indication/Indication.php&#10;Emai&#9;FILE&#9;file://C:/xampp/htdocs/arquitetura/src/Email.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -350,7 +458,7 @@
       <workItem from="1591984071049" duration="11915000" />
       <workItem from="1593969876557" duration="4593000" />
       <workItem from="1595467502851" duration="2661000" />
-      <workItem from="1595670400024" duration="626000" />
+      <workItem from="1595670400024" duration="5152000" />
     </task>
     <task id="LOCAL-00001" summary="Ajusta atributos CPF">
       <created>1592058601377</created>
@@ -500,31 +608,33 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19880000" />
+    <option name="totallyTimeSpent" value="24406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25665602" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27919912" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989339" visible="true" weight="0.24494143" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.2502781" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290735" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3290735" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3290735" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.25665602" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.27919912" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" weight="0.24494143" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.2502781" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.28411514" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,27 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Cpf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -688,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/Indication/Indication.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -702,8 +784,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a2b59e49-9d05-440f-a5a6-fe02a08fa9de/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Cpf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a2b59e49-9d05-440f-a5a6-fe02a08fa9de/schema/clean_architecture/table/students">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#44#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

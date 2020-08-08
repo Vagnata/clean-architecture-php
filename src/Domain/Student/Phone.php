@@ -47,4 +47,14 @@ class Phone
     {
         return $this->areaCode . $this->number;
     }
+
+    public function getAreaCode(): string
+    {
+        return $this->areaCode;
+    }
+
+    public function getNumber(): string
+    {
+        return $this->number;
+    }
 }

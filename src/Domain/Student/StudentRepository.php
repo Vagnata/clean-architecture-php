@@ -10,4 +10,5 @@ interface StudentRepository
 {
     public function save(Student $student): void;
     public function findByCpf(Cpf $cpf): Student;
+    public function findAll(): array;
 }
