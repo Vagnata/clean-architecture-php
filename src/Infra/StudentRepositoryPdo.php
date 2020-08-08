@@ -6,6 +6,7 @@ namespace Alura\Arquitetura\Infra;
 use Alura\Arquitetura\Domain\Cpf;
 use Alura\Arquitetura\Domain\Student\Phone;
 use Alura\Arquitetura\Domain\Student\Student;
+use Alura\Arquitetura\Domain\Student\StudentNotFoundException;
 use Alura\Arquitetura\Domain\Student\StudentRepository;
 use PDO;
 
@@ -55,7 +56,7 @@ class StudentRepositoryPdo implements StudentRepository
         $studentData = $statement->fetchAll(PDO::FETCH_ASSOC);
 
         if (!count($studentData)) {
-            throw new \Exception();
+            throw new StudentNotFoundException($cpf);
         }
 
         return $this->mapStudent($studentData);
@@ -63,7 +64,24 @@ class StudentRepositoryPdo implements StudentRepository
 
     public function findAll(): array
     {
+        $sql = 'SELECT cpf, name, email, area_code, number as phone_number FROM students
+                  LEFT JOIN phones on students.cpf = phones.student_cpf';
 
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
+
+        $dataList = $statement->fetchAll(PDO::FETCH_ASSOC);
+        $students = [];
+
+        foreach ($dataList as $data) {
+            if (!array_key_exists($data['cpf'], $students)) {
+                $students[$data['cpf']] = Student::withCpfNameAndEmail($data['cpf'], $data['name'], $data['email']);
+            }
+
+            $students[$data['cpf']]->addPhoneNumber($data['area_code'], $data['number']);
+        }
+
+        return array_values($students);
     }
 
     private function mapStudent(array $studentData): Student

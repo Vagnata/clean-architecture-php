@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbd1b65-6bac-449b-9b96-5f03db1b570e" name="Default Changelist" comment="Remove chamada redundante">
-      <change beforePath="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,9 +100,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="json" value="3" />
+          <entry key="json" value="4" />
           <entry key="lock" value="1" />
-          <entry key="php" value="46" />
+          <entry key="php" value="48" />
           <entry key="phpunit" value="1" />
           <entry key="sql" value="2" />
           <entry key="students" value="1" />
@@ -111,8 +113,8 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="Database Element" value="1" />
-          <entry key="JSON" value="4" />
-          <entry key="PHP" value="46" />
+          <entry key="JSON" value="5" />
+          <entry key="PHP" value="48" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
@@ -123,7 +125,7 @@
         <counts>
           <entry key="gitignore" value="70" />
           <entry key="json" value="72" />
-          <entry key="php" value="4507" />
+          <entry key="php" value="5223" />
           <entry key="sql" value="400" />
           <entry key="txt" value="497" />
           <entry key="xml" value="67" />
@@ -132,9 +134,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="72" />
-          <entry key="PHP" value="4489" />
+          <entry key="PHP" value="5195" />
           <entry key="PLAIN_TEXT" value="567" />
-          <entry key="SQL" value="389" />
+          <entry key="SQL" value="399" />
           <entry key="Scratch" value="29" />
           <entry key="XML" value="67" />
         </counts>
@@ -150,52 +152,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-              <folding>
-                <element signature="e#60#103#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Domain/Student/StudentTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="e#60#105#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="297">
+              <caret line="72" column="41" lean-forward="true" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
               <folding>
                 <element signature="e#44#77#0#PHP" expanded="true" />
               </folding>
@@ -203,20 +163,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryMemory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="182">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+            <state relative-caret-position="228">
+              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -224,17 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Domain/Cpf.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
+            <state relative-caret-position="210">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -248,7 +199,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/phpunit.xml" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Email.php" />
         <option value="$PROJECT_DIR$/src/Phone.php" />
         <option value="$PROJECT_DIR$/tests/PhoneTest.php" />
@@ -276,8 +226,10 @@
         <option value="$PROJECT_DIR$/src/Domain/Student/Student.php" />
         <option value="$PROJECT_DIR$/src/Domain/Student/Phone.php" />
         <option value="$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php" />
-        <option value="$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php" />
         <option value="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php" />
+        <option value="$PROJECT_DIR$/src/Infra/StudentRepositoryMemory.php" />
       </list>
     </option>
   </component>
@@ -372,6 +324,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Infra" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Student" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -390,16 +360,17 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\arquitetura\src\Infra" />
+      <recent name="C:\xampp\htdocs\arquitetura\src" />
+      <recent name="C:\xampp\htdocs\arquitetura\tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\arquitetura\tests\Domain" />
       <recent name="C:\xampp\htdocs\arquitetura\tests\Domain\Student" />
       <recent name="C:\xampp\htdocs\arquitetura\src\Domain" />
       <recent name="C:\xampp\htdocs\arquitetura\src\Indication" />
       <recent name="C:\xampp\htdocs\arquitetura\src\Student" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\arquitetura\src" />
-      <recent name="C:\xampp\htdocs\arquitetura\tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -414,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.StudentTest.testPhoneNumberAddition">
+  <component name="RunManager" selected="PHPUnit.SuiteTeste">
     <configuration name="StudentTest.testPhoneNumberAddition" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Alura\Arquitetura\Testes\Domain\Student\StudentTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" method="testPhoneNumberAddition" scope="Method" />
       <method v="2" />
@@ -452,7 +423,7 @@
       <workItem from="1593969876557" duration="4593000" />
       <workItem from="1595467502851" duration="2661000" />
       <workItem from="1595670400024" duration="5152000" />
-      <workItem from="1596927562910" duration="334000" />
+      <workItem from="1596927562910" duration="1406000" />
     </task>
     <task id="LOCAL-00001" summary="Ajusta atributos CPF">
       <created>1592058601377</created>
@@ -570,9 +541,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CpfTest - 2020.07.22 at 22h 11m 19s.xml">
-      <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="CpfTest - 2020.07.22 at 22h 12m 24s.xml">
       <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -600,21 +568,24 @@
     <history-entry file="StudentTest_testPhoneNumberAddition - 2020.08.08 at 19h 04m 54s.xml">
       <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="SuiteTeste - 2020.08.08 at 19h 05m 01s.xml">
+      <configuration name="SuiteTeste" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24740000" />
+    <option name="totallyTimeSpent" value="25812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3290735" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3290735" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.25665602" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.25665602" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.27919912" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -622,7 +593,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" weight="0.24494143" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.24494143" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.2502781" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -713,13 +684,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/BaseTestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -738,6 +702,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#53#88#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -769,34 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/Cpf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-          <folding>
-            <element signature="e#44#77#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,20 +767,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Domain/Student/StudentTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="294">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#60#105#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="72" column="41" lean-forward="true" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+          <folding>
+            <element signature="e#44#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryMemory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
