@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbd1b65-6bac-449b-9b96-5f03db1b570e" name="Default Changelist" comment="Remove chamada redundante">
-      <change beforePath="$PROJECT_DIR$/src/Domain/Student/Phone.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Student/Phone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Student/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Student/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Student/StudentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Student/StudentRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +91,8 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,11 +100,11 @@
           <entry key="gitignore" value="2" />
           <entry key="json" value="3" />
           <entry key="lock" value="1" />
-          <entry key="php" value="45" />
+          <entry key="php" value="46" />
           <entry key="phpunit" value="1" />
           <entry key="sql" value="2" />
           <entry key="students" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -113,18 +112,18 @@
           <entry key="Bash" value="1" />
           <entry key="Database Element" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="PHP" value="45" />
+          <entry key="PHP" value="46" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="70" />
           <entry key="json" value="72" />
-          <entry key="php" value="4455" />
+          <entry key="php" value="4507" />
           <entry key="sql" value="400" />
           <entry key="txt" value="497" />
           <entry key="xml" value="67" />
@@ -133,7 +132,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="72" />
-          <entry key="PHP" value="4437" />
+          <entry key="PHP" value="4489" />
           <entry key="PLAIN_TEXT" value="567" />
           <entry key="SQL" value="389" />
           <entry key="Scratch" value="29" />
@@ -171,6 +170,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Domain/Student/StudentTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="e#60#105#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.sql">
           <provider selected="true" editor-type-id="text-editor">
@@ -180,10 +191,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="220">
               <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
               <folding>
                 <element signature="e#44#77#0#PHP" expanded="true" />
@@ -196,7 +207,7 @@
         <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -213,8 +224,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+            <state relative-caret-position="370">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -259,7 +270,6 @@
         <option value="$PROJECT_DIR$/tests/CpfTest.php" />
         <option value="$PROJECT_DIR$/tests/EmailTest.php" />
         <option value="$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php" />
-        <option value="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a2b59e49-9d05-440f-a5a6-fe02a08fa9de/console.sql" />
         <option value="$PROJECT_DIR$/db.sql" />
         <option value="$PROJECT_DIR$/src/Domain/Student/StudentRepository.php" />
@@ -267,6 +277,7 @@
         <option value="$PROJECT_DIR$/src/Domain/Student/Phone.php" />
         <option value="$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php" />
         <option value="$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php" />
+        <option value="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" />
       </list>
     </option>
   </component>
@@ -322,6 +333,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,11 +366,16 @@
               <item name="Domain" type="462c0819:PsiDirectoryNode" />
               <item name="Student" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="arquitetura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arquitetura" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Infra" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,25 +414,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.CpfTest">
-    <configuration name="CpfTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\Domain\CpfTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/CpfTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="EmailTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\Domain\EmailTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/EmailTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="EmailTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\EmailTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/EmailTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PhoneTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\Domain\Student\PhoneTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="StudentTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Alura\Arquitetura\Testes\Domain\Student\StudentTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.StudentTest.testPhoneNumberAddition">
+    <configuration name="StudentTest.testPhoneNumberAddition" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Alura\Arquitetura\Testes\Domain\Student\StudentTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Domain/Student/StudentTest.php" method="testPhoneNumberAddition" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="SuiteTeste" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -428,19 +429,11 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.SuiteTeste" />
-      <item itemvalue="PHPUnit.EmailTest" />
-      <item itemvalue="PHPUnit.CpfTest" />
-      <item itemvalue="PHPUnit.EmailTest (1)" />
-      <item itemvalue="PHPUnit.PhoneTest" />
-      <item itemvalue="PHPUnit.StudentTest" />
+      <item itemvalue="PHPUnit.StudentTest.testPhoneNumberAddition" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.CpfTest" />
-        <item itemvalue="PHPUnit.EmailTest (1)" />
-        <item itemvalue="PHPUnit.StudentTest" />
-        <item itemvalue="PHPUnit.PhoneTest" />
-        <item itemvalue="PHPUnit.EmailTest" />
+        <item itemvalue="PHPUnit.StudentTest.testPhoneNumberAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -459,6 +452,7 @@
       <workItem from="1593969876557" duration="4593000" />
       <workItem from="1595467502851" duration="2661000" />
       <workItem from="1595670400024" duration="5152000" />
+      <workItem from="1596927562910" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="Ajusta atributos CPF">
       <created>1592058601377</created>
@@ -576,15 +570,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest_testPhoneNumberAddition - 2020.07.05 at 14h 00m 33s.xml">
-      <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="EmailTest - 2020.07.22 at 22h 09m 25s.xml">
-      <configuration name="EmailTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CpfTest - 2020.07.22 at 22h 10m 35s.xml">
-      <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="CpfTest - 2020.07.22 at 22h 11m 19s.xml">
       <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -606,21 +591,30 @@
     <history-entry file="CpfTest - 2020.07.22 at 22h 13m 54s.xml">
       <configuration name="CpfTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="SuiteTeste - 2020.08.08 at 19h 01m 41s.xml">
+      <configuration name="SuiteTeste" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="SuiteTeste - 2020.08.08 at 19h 02m 19s.xml">
+      <configuration name="SuiteTeste" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="StudentTest_testPhoneNumberAddition - 2020.08.08 at 19h 04m 54s.xml">
+      <configuration name="StudentTest.testPhoneNumberAddition" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24406000" />
+    <option name="totallyTimeSpent" value="24740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3290735" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3290735" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.25665602" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.25665602" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.27919912" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -634,7 +628,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.28411514" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.28411514" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -740,26 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="e#60#103#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Domain/Student/StudentTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#60#105#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Domain/CpfTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -771,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#53#88#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,17 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Cpf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+    <entry file="das://a2b59e49-9d05-440f-a5a6-fe02a08fa9de/schema/clean_architecture/table/students">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -812,20 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a2b59e49-9d05-440f-a5a6-fe02a08fa9de/schema/clean_architecture/table/students">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/Student/Phone.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -833,19 +776,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Cpf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="16" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentNotFoundException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Infra/StudentRepositoryPdo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="220">
           <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
           <folding>
             <element signature="e#44#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Domain/Student/PhoneTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding>
+            <element signature="e#60#103#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/StudentRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Student/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Domain/Student/StudentTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#60#105#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

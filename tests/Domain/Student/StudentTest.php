@@ -13,7 +13,7 @@ class StudentTest extends BaseTestCase
         $areaCode    = $this->faker->areaCode();
         $phoneNumber = $this->faker->cellphone(false);
 
-        $student = new Student();
+        $student = Student::withCpfNameAndEmail($this->faker->cpf, $this->faker->name, $this->faker->email);
         $student->addPhoneNumber($areaCode, $phoneNumber);
 
         $this->assertEquals($areaCode . $phoneNumber, current($student->getPhones()));
