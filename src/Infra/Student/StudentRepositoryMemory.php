@@ -1,10 +1,8 @@
 <?php
 
-namespace Alura\Arquitetura\Infra;
-
+namespace Alura\Arquitetura\Infra\Student;
 
 use Alura\Arquitetura\Domain\Cpf;
-use Alura\Arquitetura\Domain\Student\Phone;
 use Alura\Arquitetura\Domain\Student\Student;
 use Alura\Arquitetura\Domain\Student\StudentNotFoundException;
 use Alura\Arquitetura\Domain\Student\StudentRepository;

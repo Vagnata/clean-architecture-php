@@ -1,7 +1,6 @@
 <?php
 
-namespace Alura\Arquitetura\Infra;
-
+namespace Alura\Arquitetura\Infra\Student;
 
 use Alura\Arquitetura\Domain\Cpf;
 use Alura\Arquitetura\Domain\Student\Phone;
